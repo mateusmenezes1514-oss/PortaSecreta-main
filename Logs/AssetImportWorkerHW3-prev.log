@@ -1,0 +1,549 @@
+[UnityConnectServicesConfig] Local config successfully read: "C:/ProgramData/Unity/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.1f1 (0d9463e84828) revision 889955'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 15826 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mateus61615756" at "2026-11-11T17:26:50.9324187Z"
+Process architecture: x64
+Date: 2026-11-11T17:26:50Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW3
+-projectPath
+C:/Users/mateus61615756/PortaSecreta-main
+-logFile
+Logs/AssetImportWorkerHW3.log
+-srvPort
+20565
+-parentPid
+21692
+-analyticsLocalProjectId
+fc061ca90a0cab14bbabac670c33188a
+-licensingIpc
+LicenseClient-mateus61615756
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/mateus61615756/PortaSecreta-main
+C:/Users/mateus61615756/PortaSecreta-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [32820]  Target information:
+
+Player connection [32820]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2529961573 [EditorId] 2529961573 [Version] 1048832 [Id] WindowsEditor(7,L21002-821592) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32820]  * "[IP] 10.29.121.3 [Port] 0 [Flags] 2 [Guid] 2529961573 [EditorId] 2529961573 [Version] 1048832 [Id] WindowsEditor(7,L21002-821592) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32820] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32820] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 11.24 ms, found 4 plugins.
+Initialize engine version: 6000.5.1f1 (0d9463e84828)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mateus61615756/PortaSecreta-main/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA RTX 2000 Ada Generation (ID=0x28b0)
+    Vendor:          NVIDIA
+    VRAM:            16118 MB
+    App VRAM Budget: 15350 MB
+    Driver:          32.0.15.9671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004360 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-mateus61615756"
+[Licensing::IpcConnector] LicenseClient-mateus61615756 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mateus61615756-6000.5.1" at "2026-11-11T17:26:53.1959243Z"
+- Finished resetting the current domain, in  0.349 seconds
+Domain Reload Profiling: 1263ms
+	BeginReloadAssembly (427ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (425ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (225ms)
+	FinalizeReload (351ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2900, path: "C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              83d0866c73fa499abf7d566f0cf31be9
+  Correlation Id:          131859d86ba98bcbb4614713cb904599
+  External correlation Id: 648631663197012808
+  Machine Id:              4foQ9qst1g5w6fw5YLrWSD67KT8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mateus61615756-6000.5.1" (connect: 0.00s, validation: 0.06s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mateus61615756-6000.5.1-notifications" at "2026-11-11T17:26:53.2701028Z"
+[Licensing::Module] Licensing Background thread has ended after 2.34s
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: E4-UXFV-AZZG-E88H-3YUN-XXXX
+  Product: Unity Education
+  Type: ULF
+  Expiration: 2027-03-21T01:26:50Z
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.MipGenRenderPipelineRuntimeResources, Unity.RenderPipelines.Universal.Runtime (1 object)
+	UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionBlueNoiseResources, Unity.RenderPipelines.Universal.Runtime (1 object)
+	UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionCoreResources, Unity.RenderPipelines.Universal.Runtime (1 object)
+	UnityEngine.Rendering.Universal.ScreenSpaceReflectionPersistentResources, Unity.RenderPipelines.Universal.Runtime (1 object)
+	UnityEngine.Rendering.Universal.UniversalRenderPipelineFilmGrainResources, Unity.RenderPipelines.Universal.Runtime (1 object)
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.78 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.709 seconds
+Domain Reload Profiling: 1939ms
+	BeginReloadAssembly (370ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (136ms)
+	LoadAllAssembliesAndSetupDomain (701ms)
+		LoadAssemblies (684ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (709ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (4ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.41 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6244 unused Assets / (5.2 MB). Loaded Objects now: 7087.
+Memory consumption went from 330.1 MB to 324.9 MB.
+Total: 7.947200 ms (FindLiveObjects: 0.622000 ms CreateObjectMapping: 2.269800 ms MarkObjects: 3.228700 ms  DeleteObjects: 1.824500 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:26:58.2846349Z
+  Time since last request: 1256.61790240000005 seconds.
+  importAddress: GUID: e823cd5b5d27c0f4b8256e7c12ee3e6d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat - Importer: PreviewImporter
+Importing 'GUID: e823cd5b5d27c0f4b8256e7c12ee3e6d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: e823cd5b5d27c0f4b8256e7c12ee3e6d' -> (Import Result ID: '7d68a5427a2a69f978351c7d00d317d4') in 0.101 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61896be240117aba1c9b049440102c0a DependenciesID=42ad89e3e7c93964cf5dec79e995eb2c StaticDependenciesID=df439e8c0a9c386a410bbd4b3814d108 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:26:58.3967793Z
+  Time since last request: 0.0000243 seconds.
+  importAddress: GUID: 594ea882c5a793440b60ff72d896021e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat - Importer: PreviewImporter
+Importing 'GUID: 594ea882c5a793440b60ff72d896021e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: 594ea882c5a793440b60ff72d896021e' -> (Import Result ID: '2dd4f2cff23579e2838fbdc276387e89') in 0.285 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61c5272ea840c188eace2ff91fc38c9a DependenciesID=ab3c2c0dd3b208b4106dae85e834c69d StaticDependenciesID=85db038f35b3efb4c6adb75599393d13 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:26:58.6880899Z
+  Time since last request: 0.000714 seconds.
+  importAddress: GUID: 22262639920f43d6be32430e4e58350d - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat - Importer: PreviewImporter
+Importing 'GUID: 22262639920f43d6be32430e4e58350d - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: 22262639920f43d6be32430e4e58350d' -> (Import Result ID: '599aea73e203b1609ee9e67d15604605') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5789a7ac21f7d030db1d08121d5d6b81 DependenciesID=a9dec7bbc7dc7d97b63e26f0898878b4 StaticDependenciesID=94cbb89ce7c58b6228619e6bf8730b97 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:26:58.7176688Z
+  Time since last request: 0.0002871 seconds.
+  importAddress: GUID: b51db210fe78df745a372851b3db949e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat - Importer: PreviewImporter
+Importing 'GUID: b51db210fe78df745a372851b3db949e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: b51db210fe78df745a372851b3db949e' -> (Import Result ID: '4248be206d93e40ab8fb1cc0653fe6d0') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9d97cf75954d8f7c7d40b3e5ebcb2de DependenciesID=e0694d695468c9c4a12b9366f373dc87 StaticDependenciesID=0592fc767dfc9625c6323a5e6702c755 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:26:58.7381765Z
+  Time since last request: 0.0004331 seconds.
+  importAddress: GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter
+Importing 'GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: bc3def193b270c649b041063a70a1a1f' -> (Import Result ID: '0514b76e4fc75cd8f20cf66d83daf125') in 0.220 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ec5b39975e1b93a373e1b27a41f470f DependenciesID=a84676d55bf5b6cff9f58fbe678dafb3 StaticDependenciesID=9e52c07c9162181538a74b552eb8def9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:26:58.9665906Z
+  Time since last request: 0.000487 seconds.
+  importAddress: GUID: 5302535af1044152a457ed104f1f4b91 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset - Importer: PreviewImporter
+Importing 'GUID: 5302535af1044152a457ed104f1f4b91 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: 5302535af1044152a457ed104f1f4b91' -> (Import Result ID: '06880e1475824378a4126f176437fc29') in 0.055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eca8add19d2bf724baafdacfc94f9c1a DependenciesID=88a8bced5ccabc90e55d59aa1c1b1c85 StaticDependenciesID=233861607c5d36717550899908ac9956 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:27:01.150239Z
+  Time since last request: 2.1196348 seconds.
+  importAddress: GUID: 3e01bbae25716b24ea9da11102b44902 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/UITKFullTemplate.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 3e01bbae25716b24ea9da11102b44902 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/UITKFullTemplate.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: 3e01bbae25716b24ea9da11102b44902' -> (Import Result ID: 'c936feab840d13c0c5bca33d5d8809e2') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8aa21d857c853835170f60ec4df5dc2f DependenciesID=cf760d27ca5f3c41f82690d966e04c08 StaticDependenciesID=8e708bc5290adddf1ad30c3ee1a96d01 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:27:01.1649347Z
+  Time since last request: 0.0005454 seconds.
+  importAddress: GUID: 24a73dccd7b6fad4798be282f96a21f4 - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 24a73dccd7b6fad4798be282f96a21f4 - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: 24a73dccd7b6fad4798be282f96a21f4' -> (Import Result ID: '87d4e65b87854af986997cf6cf342bda') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdfc5c5744c046e25256c48814b5577c DependenciesID=1002fae9a7afefd57a3cecbd91b5563a StaticDependenciesID=bc5e91db1d78a39243943d47cf874f8d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:27:01.1787385Z
+  Time since last request: 0.0006218 seconds.
+  importAddress: GUID: d7288f66e4fb0634c9afef98c31b722a - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: d7288f66e4fb0634c9afef98c31b722a - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+UnityException: Calls to "AssetDatabase.SaveAssetIfDirty" are restricted during asset importing. Please make sure this function is not called from ScriptedImporters or PostProcessors, as it is a source of non-determinism.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.SaveAssetIfDirty_Injected(UnityEngine.GUID&)
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.GUID guid) [0x00000] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEditor.AssetDatabase.SaveAssetIfDirty (UnityEngine.Object obj) [0x00017] in <f61bdce0171b47dd916ed4daeded8465>:0 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x00044] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\UniversalRenderPipelineGlobalSettings.cs:265 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.EnsureGlobalSettings () [0x00008] in .\Library\PackageCache\com.unity.render-pipelines.universal@be00b5bbd9a1\Runtime\Data\UniversalRenderPipelineAsset.cs:773 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00002] in <2d13e1d0272a48939db0df2b39041de1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render_Injected(IntPtr)
+UnityEngine.Camera:Render()
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@be00b5bbd9a1/Runtime/UniversalRenderPipelineGlobalSettings.cs Line: 265)
+
+Imported 'GUID: d7288f66e4fb0634c9afef98c31b722a' -> (Import Result ID: '5dfe703c72f014a6cd195f53a3ad89ad') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62267bad5730deb1ee787ef0cc7c8be6 DependenciesID=981b2b61bb3bb6426a9d34a95a5cba4b StaticDependenciesID=1be121613bbc46be05f40acc6964ea2a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-11T17:27:07.6222865Z
+  Time since last request: 6.4273191 seconds.
+  importAddress: GUID: fdad9d952ae84cafb74c63f2e694d042 - Path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab - Importer: PreviewImporter
+Importing 'GUID: fdad9d952ae84cafb74c63f2e694d042 - Path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fdad9d952ae84cafb74c63f2e694d042' -> (Import Result ID: 'dc97df32bcd56b57d4658648f0ce8b04') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ebf088f7916f5764f6fce3b979e2837 DependenciesID=a011a9f5ce62f292b23686b51323222e StaticDependenciesID=277e4766d55f662ab41f1924ca041660 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
